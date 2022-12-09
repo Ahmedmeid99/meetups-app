@@ -1,3 +1,4 @@
+// import Image from "next/image";
 import classes from "./MeetupDetail.module.css";
 const MeetupDetail = (props) => {
   return (
