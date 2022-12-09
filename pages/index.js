@@ -1,5 +1,5 @@
 // websiteName.com/
-import MeetupList from "../components/meetups/MeetupList";
+import MeetupList from "../components/meetups/MeetupList.js";
 import Head from "next/head";
 import { MongoClient } from "mongodb";
 
@@ -13,7 +13,7 @@ function HomePage(props) {
           content="Browse a huge list of highly active React meetups!"
         />
       </Head>
-      <MeetupList meetups={props.meetups} />
+      <MeetupList meetups={ props.meetups } />
     </>
   );
 }

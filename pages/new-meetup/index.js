@@ -1,5 +1,5 @@
 // websiteName.com/new-meetup
-import NewMeetupForm from "../../components/meetups/NewMeetupForm";
+import NewMeetupForm from "../../components/meetups/NewMeetupForm.js";
 import { useRouter } from "next/router";
 import Head from "next/head";
 const NewMeetupPage = () => {
@@ -26,7 +26,7 @@ const NewMeetupPage = () => {
           content="Browse a huge list of highly active React meetups!"
         />
       </Head>
-      <NewMeetupForm onAddMeetup={onAddMeetupHandler} />;
+      <NewMeetupForm onAddMeetup={ onAddMeetupHandler } />;
     </>
   );
 };
