@@ -1,8 +1,8 @@
 import { MongoClient, ObjectId } from "mongodb";
 import Head from "next/head";
-import MeetupDetail from "../../components/meetups/MeetupDetail.js";
+import MeetupDetail from "/components/meetups/MeetupDetail.js";
 
-const MeetupDetails = (props) => {
+const MeetupDetailsPage = (props) => {
   return (
     <>
       <Head>
@@ -66,4 +66,4 @@ export async function getStaticProps(context) {
     },
   };
 }
-export default MeetupDetails;
+export default MeetupDetailsPage;

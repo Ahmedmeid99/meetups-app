@@ -1,5 +1,5 @@
 // websiteName.com/
-import MeetupList from "../components/meetups/MeetupList.js";
+import MeetupList from "/components/meetups/MeetupList.js";
 import Head from "next/head";
 import { MongoClient } from "mongodb";
 
